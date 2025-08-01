@@ -1,221 +1,243 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18.0px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14.0px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14.0px;
-            }
-            .metadata {
-                font-size: 14.0px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14.0px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                
-                float: left;
-                margin-right: 14px;
-                
-                
-            }
-            .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
-                width: auto;
-                height: auto;
-            }
-            
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                
-                page-break-after: always;
-                
-                
-            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
-        
+
         <div class="photobox">
-            
-            <a href="https://static01.nyt.com/images/2023/03/01/multimedia/24tanisrex3-pudding-phgj/24tanisrex3-pudding-phgj-mediumSquareAt3X.jpg">
-                <img src="Images/CD8FA8C0-8C51-4F41-A2FE-BB5451B893B5.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-            
-            
+          <a
+            href="https://static01.nyt.com/images/2023/03/01/multimedia/24tanisrex3-pudding-phgj/24tanisrex3-pudding-phgj-mediumSquareAt3X.jpg"
+          >
+            <img
+              src="Images/CD8FA8C0-8C51-4F41-A2FE-BB5451B893B5.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
         </div>
-        
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Baked Lemon Pudding</h1>
-        
+
         <!-- Info -->
-        
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Total Time: </b><span itemprop="totalTime">1 hr</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4 to 6 servings</span>
-            
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-            
-                <b>Source: </b>
-                
-                    <a itemprop="url" href="https://cooking.nytimes.com/recipes/1023966-baked-lemon-pudding?campaign_id=58&amp;emc=edit_ck_20230304&amp;instance_id=86834&amp;nl=cooking&amp;regi_id=196247104&amp;segment_id=126931&amp;te=1&amp;user_id=8ed303f256d45d1567c308acc5af015e">
-                        <span itemprop="author">cooking.nytimes.com</span>
-                    </a>
-                
-                
-            
+          <b>Total Time: </b><span itemprop="totalTime">1 hr</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">4 to 6 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://cooking.nytimes.com/recipes/1023966-baked-lemon-pudding?campaign_id=58&amp;emc=edit_ck_20230304&amp;instance_id=86834&amp;nl=cooking&amp;regi_id=196247104&amp;segment_id=126931&amp;te=1&amp;user_id=8ed303f256d45d1567c308acc5af015e"
+          >
+            <span itemprop="author">cooking.nytimes.com</span>
+          </a>
         </p>
-        
-        
-        
+
         <div class="clear"></div>
-        
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
-        
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon/15 grams unsalted butter, softened</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup plus 2 tablespoons/225 grams granulated sugar</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> large eggs, yolks and whites separated</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons/30 grams all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large lemons, grated and juiced (about 2 tablespoons zest and 6 tablespoons juice)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup/250 milliliters whole milk</p><p class="line" itemprop="recipeIngredient">Confectioners’ sugar, for dusting</p><p class="line" itemprop="recipeIngredient">Softly whipped cream, for serving</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon/15 grams unsalted butter, softened
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup plus 2 tablespoons/225 grams granulated
+              sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> large eggs, yolks and whites separated
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> tablespoons/30 grams all-purpose flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> large lemons, grated and juiced (about 2
+              tablespoons zest and 6 tablespoons juice)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup/250 milliliters whole milk
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Confectioners’ sugar, for dusting
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Softly whipped cream, for serving
+            </p>
+          </div>
         </div>
-        
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Heat oven to 350 degrees and set a rack in the middle of the oven.</p><p class="line">Place butter in a medium mixing bowl. Gradually add sugar as you mash the mixture with a wooden spoon until it looks like damp sand.</p><p class="line">Mix egg yolks into sugar mixture, then beat in the flour. Add lemon zest and juice, then whisk in the milk.</p><p class="line">In a separate clean large bowl, beat egg whites to stiff peaks. Fold whites by hand gently into batter.</p><p class="line">Pour mixture into a 5-cup ceramic or glass baking dish (or Pyrex pie plate). Bake in the middle of the oven for about 40 minutes, or until mixture is just set and top is golden brown. (Alternatively, bake in individual ramekins or custard cups for about 20 minutes.)</p><p class="line">Serve warm, dusted with confectioners’ sugar, with softly whipped cream alongside.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Heat oven to 350 degrees and set a rack in the middle of the oven.
+            </p>
+            <p class="line">
+              Place butter in a medium mixing bowl. Gradually add sugar as you
+              mash the mixture with a wooden spoon until it looks like damp
+              sand.
+            </p>
+            <p class="line">
+              Mix egg yolks into sugar mixture, then beat in the flour. Add
+              lemon zest and juice, then whisk in the milk.
+            </p>
+            <p class="line">
+              In a separate clean large bowl, beat egg whites to stiff peaks.
+              Fold whites by hand gently into batter.
+            </p>
+            <p class="line">
+              Pour mixture into a 5-cup ceramic or glass baking dish (or Pyrex
+              pie plate). Bake in the middle of the oven for about 40 minutes,
+              or until mixture is just set and top is golden brown.
+              (Alternatively, bake in individual ramekins or custard cups for
+              about 20 minutes.)
+            </p>
+            <p class="line">
+              Serve warm, dusted with confectioners’ sugar, with softly whipped
+              cream alongside.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Notes -->
-    
+        <!-- Notes -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
-    
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
 
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Trans Fat: 0 grams<br />Fat: 8 grams<br />Calories: 405<br />Saturated
+              Fat: 4 grams<br />Unsaturated Fat: 3 grams<br />Sodium: 57
+              milligrams<br />Sugar: 76 grams<br />Fiber: 1 gram<br />Carbohydrate:
+              81 grams<br />Protein: 5 grams
+            </p>
+          </div>
+        </div>
+      </div>
 
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Trans Fat: 0 grams<br/>Fat: 8 grams<br/>Calories: 405<br/>Saturated Fat: 4 grams<br/>Unsaturated Fat: 3 grams<br/>Sodium: 57 milligrams<br/>Sugar: 76 grams<br/>Fiber: 1 gram<br/>Carbohydrate: 81 grams<br/>Protein: 5 grams</p>
+      <div class="clear"></div>
     </div>
-</div>
-
-
-
-    
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-
-
-    </body>
+  </body>
 </html>

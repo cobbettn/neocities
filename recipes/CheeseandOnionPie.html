@@ -1,223 +1,237 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18.0px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14.0px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14.0px;
-            }
-            .metadata {
-                font-size: 14.0px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14.0px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                
-                float: left;
-                margin-right: 14px;
-                
-                
-            }
-            .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
-                width: auto;
-                height: auto;
-            }
-            
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                
-                page-break-after: always;
-                
-                
-            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
-        
+
         <div class="photobox">
-            
-            <a href="https://www.sainsburysmagazine.co.uk/uploads/media/720x770/07/8377-Cheese%20Onion%20Pie.jpg?v=1-0">
-                <img src="Images/143B3608-C3B3-4BB5-8C43-D72A5DBF04A8.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-            
-            
+          <a
+            href="https://www.sainsburysmagazine.co.uk/uploads/media/720x770/07/8377-Cheese%20Onion%20Pie.jpg?v=1-0"
+          >
+            <img
+              src="Images/143B3608-C3B3-4BB5-8C43-D72A5DBF04A8.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
         </div>
-        
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Cheese and Onion Pie</h1>
-        
+
         <!-- Info -->
-        
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">20 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">20 mins</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Serves: 10</span>
-            
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-            
-                <b>Source: </b>
-                
-                    <a itemprop="url" href="https://www.sainsburysmagazine.co.uk/recipes/mains/cheese-and-onion-pie">
-                        <span itemprop="author">sainsburysmagazine.co.uk</span>
-                    </a>
-                
-                
-            
+          <b>Prep Time: </b><span itemprop="prepTime">20 min</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">20 mins</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">Serves: 10</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.sainsburysmagazine.co.uk/recipes/mains/cheese-and-onion-pie"
+          >
+            <span itemprop="author">sainsburysmagazine.co.uk</span>
+          </a>
         </p>
-        
-        
-        
+
         <div class="clear"></div>
-        
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
-        
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>500</strong>g plain flour</p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g cold butter, diced</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large onions, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>500</strong>g vegetarian mature cheddar, grated</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> large eggs</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g plain flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g cold butter, diced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> large onions, finely chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g vegetarian mature cheddar, grated
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> large eggs
+            </p>
+          </div>
         </div>
-        
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Step by step</p><p class="line">For the pastry, put the flour, butter and a pinch of salt in the food processor; pulse until it looks like breadcrumbs. Add 5-6 tablespoons of cold water, pulsing until it clumps into a ball. Wrap in clingfim; chill for at least 30 minutes.</p><p class="line">If you have a microwave, put the onions in a heatproof bowl with 3 tablespoons of water. Cover and cook for 8-10 minutes on high, stirring halfway through, until very soft. Alternatively, put the onion and water in a pan and cook for 10-15 minutes until tender. Leave to cool, then drain off any excess water.</p><p class="line">Heat the oven to 200 ̊C, fan 180 ̊C, gas 6. Mix together the cooled onions and cheese. Season generously with black pepper and a little salt. Lightly beat together 2 eggs, add to the cheese, and mix well. Cut off one-third of the pastry and chill. Roll out the larger ball on a floured surface. Use to line a shallow pie dish, about 25cm x 6cm. The pastry is quite short, so patch it up, if needed. Trim the edges.</p><p class="line">Pack in the filling, and smooth over the top. Roll out the remaining pastry until the thickness of a £1 coin. Beat the remaining egg, and brush a little onto the lip of the dish, then lay the pastry on top, sealing the edges. Trim off the edges and crimp , or press down with a fork, and make a steam hole. Brush with the remaining beaten egg.</p><p class="line">Bake for 40 minutes until golden brown. Leave to cool for 10 minutes before cutting.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Step by step</p>
+            <p class="line">
+              For the pastry, put the flour, butter and a pinch of salt in the
+              food processor; pulse until it looks like breadcrumbs. Add 5-6
+              tablespoons of cold water, pulsing until it clumps into a ball.
+              Wrap in clingfim; chill for at least 30 minutes.
+            </p>
+            <p class="line">
+              If you have a microwave, put the onions in a heatproof bowl with 3
+              tablespoons of water. Cover and cook for 8-10 minutes on high,
+              stirring halfway through, until very soft. Alternatively, put the
+              onion and water in a pan and cook for 10-15 minutes until tender.
+              Leave to cool, then drain off any excess water.
+            </p>
+            <p class="line">
+              Heat the oven to 200 ̊C, fan 180 ̊C, gas 6. Mix together the cooled
+              onions and cheese. Season generously with black pepper and a
+              little salt. Lightly beat together 2 eggs, add to the cheese, and
+              mix well. Cut off one-third of the pastry and chill. Roll out the
+              larger ball on a floured surface. Use to line a shallow pie dish,
+              about 25cm x 6cm. The pastry is quite short, so patch it up, if
+              needed. Trim the edges.
+            </p>
+            <p class="line">
+              Pack in the filling, and smooth over the top. Roll out the
+              remaining pastry until the thickness of a £1 coin. Beat the
+              remaining egg, and brush a little onto the lip of the dish, then
+              lay the pastry on top, sealing the edges. Trim off the edges and
+              crimp , or press down with a fork, and make a steam hole. Brush
+              with the remaining beaten egg.
+            </p>
+            <p class="line">
+              Bake for 40 minutes until golden brown. Leave to cool for 10
+              minutes before cutting.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Notes -->
-    
+        <!-- Notes -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
-    
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
 
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>Calories</p>
+          </div>
+        </div>
+      </div>
 
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Calories</p>
+      <div class="clear"></div>
     </div>
-</div>
-
-
-
-    
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-
-
-    </body>
+  </body>
 </html>

@@ -1,212 +1,309 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18.0px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14.0px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14.0px;
-            }
-            .metadata {
-                font-size: 14.0px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14.0px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                
-                float: left;
-                margin-right: 14px;
-                
-                
-            }
-            .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
-                width: auto;
-                height: auto;
-            }
-            
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                
-                page-break-after: always;
-                
-                
-            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
-        
+
         <div class="photobox">
-            
-            <a href="https://assets.bonappetit.com/photos/5f808701ba63e7584fca0570/16:9/w_2560%2Cc_limit/Sohla-Milk-and-Honey-Pie.jpg">
-                <img src="Images/DE1DEB4A-5F77-43F5-A298-2B697E09DA48-2459-0000006C94F8B7F8.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-            
-            
+          <a
+            href="https://assets.bonappetit.com/photos/5f808701ba63e7584fca0570/16:9/w_2560%2Cc_limit/Sohla-Milk-and-Honey-Pie.jpg"
+          >
+            <img
+              src="Images/DE1DEB4A-5F77-43F5-A298-2B697E09DA48-2459-0000006C94F8B7F8.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
         </div>
-        
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Milk and Honey Pie</h1>
-        
+
         <!-- Info -->
-        
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
-            <p itemprop="recipeCategory" class="categories">Thanksgiving 2020</p>
-        
-        
+
+        <p itemprop="recipeCategory" class="categories">Thanksgiving 2020</p>
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">6 - 8 servings</span>
-            
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-            
-                <b>Source: </b>
-                
-                    <a itemprop="url" href="https://www.bonappetit.com/recipe/milk-and-honey-pie">
-                        <span itemprop="author">bonappetit.com</span>
-                    </a>
-                
-                
-            
+          <b>Servings: </b><span itemprop="recipeYield">6 - 8 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.bonappetit.com/recipe/milk-and-honey-pie"
+          >
+            <span itemprop="author">bonappetit.com</span>
+          </a>
         </p>
-        
-        
-        
+
         <div class="clear"></div>
-        
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
-        
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> Tbsp. sugar</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> tsp. Diamond Crystal or ¾ tsp. Morton kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> cups (188 g) all-purpose flour, plus more for dusting</p><p class="line" itemprop="recipeIngredient"><strong>12</strong> Tbsp. (1½ sticks) chilled unsalted butter, cut into ½&quot; pieces</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup honey</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> cup (45 g) cornstarch</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> tsp. Diamond Crystal or ½ tsp. Morton kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>5</strong> large egg yolks</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large eggs</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> cups whole milk</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup heavy cream</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup (35 g) nonfat milk powder</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Tbsp. cornstarch</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup (200 g) sugar, divided</p><p class="line" itemprop="recipeIngredient"><strong>5</strong> large egg whites</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> tsp. kosher salt</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tbsp. sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½</strong> tsp. Diamond Crystal or ¾ tsp. Morton kosher
+              salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½</strong> cups (188 g) all-purpose flour, plus more for
+              dusting
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>12</strong> Tbsp. (1½ sticks) chilled unsalted butter, cut
+              into ½&quot; pieces
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> cup honey
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅓</strong> cup (45 g) cornstarch
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> tsp. Diamond Crystal or ½ tsp. Morton kosher
+              salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>5</strong> large egg yolks
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> large eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½</strong> cups whole milk
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup heavy cream
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup (35 g) nonfat milk powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tbsp. cornstarch
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup (200 g) sugar, divided
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>5</strong> large egg whites
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> tsp. kosher salt
+            </p>
+          </div>
         </div>
-        
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Whisk sugar, salt, and 1½ cups (188 g) flour in a medium bowl. Add butter and toss to coat and distribute. Using your hands and working quickly, rub and smash butter into flat irregular pieces. (Be careful not to overwork; you don’t want to soften the butter too much. Just make sure you smash each piece at least once.) Drizzle ⅓ cup cold water over and mix with a rubber spatula, smashing in butter, until dough mostly comes together; it will be dry and shaggy.</p><p class="line">Turn dough out onto a lightly floured surface. Gather dough into a rough 1½&quot;-thick square. Lightly flour dough and gently press and roll out to a ½&quot;-thick square. Fold dough in half, then in half again to make a square. Repeat rolling and folding process 2 more times. Pat dough into a disk, wrap tightly in plastic, and chill at least 2 hours.</p><p class="line">Dust dough with flour and place on a lightly floured surface. Using rolling pin, gently press out dough while rotating until just under 1&quot; thick. Lightly flour both sides of dough and continue rolling out, stopping often to turn dough and flour, to a 13&quot;–14&quot; round about ⅛&quot; thick. Brush off excess flour on both sides. Fold dough in half, then in half again, and transfer to a 9&quot;-diameter pie dish. Unfold into dish and lift edges to allow dough to slump into dish. Gently press into dish. Using kitchen shears or a small, sharp knife, trim off any excess dough so you have about 1½&quot; overhang. Fold overhang under dough and crimp edges as desired. Chill in freezer at least 1 hour.</p><p class="line">Place a rack on the lower third of oven; preheat to 350°. Line crust with 2 layers of foil, making sure to cover edges. Fill with pie weights or dried beans (go all the way to the top). Set on a baking sheet and bake 1 hour. Transfer to a wire rack and let cool 15 minutes.</p><p class="line">Remove pie weights and foil. Use the same foil to cover edges of crust, leaving sides and center exposed. Return to oven and bake until golden brown, 25–30 minutes. Transfer to rack and let cool.</p><p class="line">Whisk honey, cornstarch, and salt in a medium saucepan until smooth. Add egg yolks and eggs and whisk until well combined. Stream in milk and cream, whisking until incorporated. Cook over medium-high heat, whisking constantly, until mixture thickens and begins to bubble, about 5 minutes. As soon as you see that first bubble, set a timer and simmer 1 minute. (This ensures that the cornstarch is fully hydrated and a protein-dissolving enzyme found in eggs is deactivated.) Pour into pie crust; smooth surface.</p><p class="line">With rack still in lower third of oven, preheat oven to 350° if needed. Pulse milk powder, cornstarch, and 2 Tbsp. sugar in a spice mill or blender until fine; set aside.</p><p class="line">Pour water into a clean medium saucepan to come 2&quot; up sides; bring to a simmer over medium heat. Whisk egg whites, salt, and remaining sugar in the bowl of a stand mixer just to combine. Set over pan of simmering water and cook, stirring and scraping bottom and sides constantly with a heatproof rubber spatula, until warm to the touch and sugar is dissolved, 5–7 minutes. Fit bowl back on stand mixer, attach whisk, and beat mixture on high speed until thick and fluffy and meringue balls up inside whisk, about 4 minutes. Reduce speed to low; sprinkle reserved milk powder mixture over and beat just to combine.</p><p class="line">Using a spoon, pile meringue over pudding and spread to edges, creating big swoops and swirls. Place in oven and immediately reduce heat to 250°. Bake until meringue is golden brown and crisp on the outside but still soft on the inside, about 75 minutes. Chill 3 hours before serving. Slice with a barely damp serrated knife for clean portions.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Whisk sugar, salt, and 1½ cups (188 g) flour in a medium bowl. Add
+              butter and toss to coat and distribute. Using your hands and
+              working quickly, rub and smash butter into flat irregular pieces.
+              (Be careful not to overwork; you don’t want to soften the butter
+              too much. Just make sure you smash each piece at least once.)
+              Drizzle ⅓ cup cold water over and mix with a rubber spatula,
+              smashing in butter, until dough mostly comes together; it will be
+              dry and shaggy.
+            </p>
+            <p class="line">
+              Turn dough out onto a lightly floured surface. Gather dough into a
+              rough 1½&quot;-thick square. Lightly flour dough and gently press
+              and roll out to a ½&quot;-thick square. Fold dough in half, then
+              in half again to make a square. Repeat rolling and folding process
+              2 more times. Pat dough into a disk, wrap tightly in plastic, and
+              chill at least 2 hours.
+            </p>
+            <p class="line">
+              Dust dough with flour and place on a lightly floured surface.
+              Using rolling pin, gently press out dough while rotating until
+              just under 1&quot; thick. Lightly flour both sides of dough and
+              continue rolling out, stopping often to turn dough and flour, to a
+              13&quot;–14&quot; round about ⅛&quot; thick. Brush off excess
+              flour on both sides. Fold dough in half, then in half again, and
+              transfer to a 9&quot;-diameter pie dish. Unfold into dish and lift
+              edges to allow dough to slump into dish. Gently press into dish.
+              Using kitchen shears or a small, sharp knife, trim off any excess
+              dough so you have about 1½&quot; overhang. Fold overhang under
+              dough and crimp edges as desired. Chill in freezer at least 1
+              hour.
+            </p>
+            <p class="line">
+              Place a rack on the lower third of oven; preheat to 350°. Line
+              crust with 2 layers of foil, making sure to cover edges. Fill with
+              pie weights or dried beans (go all the way to the top). Set on a
+              baking sheet and bake 1 hour. Transfer to a wire rack and let cool
+              15 minutes.
+            </p>
+            <p class="line">
+              Remove pie weights and foil. Use the same foil to cover edges of
+              crust, leaving sides and center exposed. Return to oven and bake
+              until golden brown, 25–30 minutes. Transfer to rack and let cool.
+            </p>
+            <p class="line">
+              Whisk honey, cornstarch, and salt in a medium saucepan until
+              smooth. Add egg yolks and eggs and whisk until well combined.
+              Stream in milk and cream, whisking until incorporated. Cook over
+              medium-high heat, whisking constantly, until mixture thickens and
+              begins to bubble, about 5 minutes. As soon as you see that first
+              bubble, set a timer and simmer 1 minute. (This ensures that the
+              cornstarch is fully hydrated and a protein-dissolving enzyme found
+              in eggs is deactivated.) Pour into pie crust; smooth surface.
+            </p>
+            <p class="line">
+              With rack still in lower third of oven, preheat oven to 350° if
+              needed. Pulse milk powder, cornstarch, and 2 Tbsp. sugar in a
+              spice mill or blender until fine; set aside.
+            </p>
+            <p class="line">
+              Pour water into a clean medium saucepan to come 2&quot; up sides;
+              bring to a simmer over medium heat. Whisk egg whites, salt, and
+              remaining sugar in the bowl of a stand mixer just to combine. Set
+              over pan of simmering water and cook, stirring and scraping bottom
+              and sides constantly with a heatproof rubber spatula, until warm
+              to the touch and sugar is dissolved, 5–7 minutes. Fit bowl back on
+              stand mixer, attach whisk, and beat mixture on high speed until
+              thick and fluffy and meringue balls up inside whisk, about 4
+              minutes. Reduce speed to low; sprinkle reserved milk powder
+              mixture over and beat just to combine.
+            </p>
+            <p class="line">
+              Using a spoon, pile meringue over pudding and spread to edges,
+              creating big swoops and swirls. Place in oven and immediately
+              reduce heat to 250°. Bake until meringue is golden brown and crisp
+              on the outside but still soft on the inside, about 75 minutes.
+              Chill 3 hours before serving. Slice with a barely damp serrated
+              knife for clean portions.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Notes -->
-    
+        <!-- Notes -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
-    
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-
-    
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-
-
-    </body>
+  </body>
 </html>

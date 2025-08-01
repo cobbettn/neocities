@@ -1,212 +1,246 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18.0px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14.0px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14.0px;
-            }
-            .metadata {
-                font-size: 14.0px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14.0px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                
-                float: left;
-                margin-right: 14px;
-                
-                
-            }
-            .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
-                width: auto;
-                height: auto;
-            }
-            
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                
-                page-break-after: always;
-                
-                
-            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
-        
+
         <div class="photobox">
-            
-            <a href="https://assets.bonappetit.com/photos/57e15bb45a14a530086efd84/16:9/w_1880,c_limit/challah.jpg">
-                <img src="Images/476B70F6-5C25-4F7C-9314-5D8EA4F7A2F6-12600-0000032A87A91C52.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-            
-            
+          <a
+            href="https://assets.bonappetit.com/photos/57e15bb45a14a530086efd84/16:9/w_1880,c_limit/challah.jpg"
+          >
+            <img
+              src="Images/476B70F6-5C25-4F7C-9314-5D8EA4F7A2F6-12600-0000032A87A91C52.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
         </div>
-        
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Challah</h1>
-        
+
         <!-- Info -->
-        
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
-            <p itemprop="recipeCategory" class="categories">Bread</p>
-        
-        
+
+        <p itemprop="recipeCategory" class="categories">Bread</p>
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">2 loaves</span>
-            
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-            
-                <b>Source: </b>
-                
-                    <a itemprop="url" href="https://www.bonappetit.com/recipe/challah">
-                        <span itemprop="author">bonappetit.com</span>
-                    </a>
-                
-                
-            
+          <b>Servings: </b><span itemprop="recipeYield">2 loaves</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a itemprop="url" href="https://www.bonappetit.com/recipe/challah">
+            <span itemprop="author">bonappetit.com</span>
+          </a>
         </p>
-        
-        
-        
+
         <div class="clear"></div>
-        
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
-        
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>2 ¼</strong>-ounce envelopes active dry yeast (about 4½ teaspoons)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons plus ¾ cup sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large eggs, beaten to blend</p><p class="line" itemprop="recipeIngredient"><strong>4¾</strong> teaspoons kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> cup shortening, melted, plus more for greasing</p><p class="line" itemprop="recipeIngredient"><strong>7</strong> cups all-purpose flour, plus more for dusting</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large egg yolks</p><p class="line" itemprop="recipeIngredient">Sesame seeds (for serving)</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2 ¼</strong>-ounce envelopes active dry yeast (about 4½
+              teaspoons)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> teaspoons plus ¾ cup sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> large eggs, beaten to blend
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4¾</strong> teaspoons kosher salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> cup shortening, melted, plus more for greasing
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>7</strong> cups all-purpose flour, plus more for dusting
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> large egg yolks
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Sesame seeds (for serving)
+            </p>
+          </div>
         </div>
-        
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Whisk yeast, 2 tsp. sugar, and ¼ cup warm water in the bowl of a stand mixer (or a large bowl if kneading by hand). Let sit until foamy, about 10 minutes.</p><p class="line">Whisk eggs, salt, ½ cup shortening, ¾ cup sugar, and 2 cups warm water in a medium bowl. Add egg mixture and 7 cups flour to yeast mixture. Beat with dough hook on medium speed until dough is smooth, elastic, and very sticky and pulls away from sides of bowl, about 10 minutes. (Alternatively, knead dough on a lightly floured surface until smooth and elastic, about 10 minutes.)</p><p class="line">Grease a large bowl with shortening; transfer dough to bowl. Cover with plastic wrap and let sit in a warm place until doubled in size, 1½–2 hours.</p><p class="line">Turn out dough onto a lightly floured surface and divide into 6 equal portions. Shape each into a 17&quot;-long rope.</p><p class="line">Grease 2 rimmed baking sheets with shortening. Place 3 ropes side by side on each prepared sheet. Working with one at a time, pinch logs together at 1 end; braid, then pinch ends together and tuck under. Let sit in a warm place until 1½ times larger, about 1 hour.</p><p class="line">Preheat oven to 325°. Beat egg yolks and 2 Tbsp. water in a small bowl. Working with one at a time, brush dough with egg wash and sprinkle with sesame seeds. Bake first loaf 15 minutes, then increase oven temperature to 425° and continue baking until browned and sounds hollow when tapped, 15–20 minutes more. Let cool on baking sheet.</p><p class="line">Reduce oven temperature to 325°, then leave oven door open 5 seconds to cool down. Repeat baking with remaining dough.</p><p class="line">Do Ahead: Challah can be made 3 days ahead; keep tightly wrapped at room temperature, or freeze up to 1 month. Let cool before storing.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Whisk yeast, 2 tsp. sugar, and ¼ cup warm water in the bowl of a
+              stand mixer (or a large bowl if kneading by hand). Let sit until
+              foamy, about 10 minutes.
+            </p>
+            <p class="line">
+              Whisk eggs, salt, ½ cup shortening, ¾ cup sugar, and 2 cups warm
+              water in a medium bowl. Add egg mixture and 7 cups flour to yeast
+              mixture. Beat with dough hook on medium speed until dough is
+              smooth, elastic, and very sticky and pulls away from sides of
+              bowl, about 10 minutes. (Alternatively, knead dough on a lightly
+              floured surface until smooth and elastic, about 10 minutes.)
+            </p>
+            <p class="line">
+              Grease a large bowl with shortening; transfer dough to bowl. Cover
+              with plastic wrap and let sit in a warm place until doubled in
+              size, 1½–2 hours.
+            </p>
+            <p class="line">
+              Turn out dough onto a lightly floured surface and divide into 6
+              equal portions. Shape each into a 17&quot;-long rope.
+            </p>
+            <p class="line">
+              Grease 2 rimmed baking sheets with shortening. Place 3 ropes side
+              by side on each prepared sheet. Working with one at a time, pinch
+              logs together at 1 end; braid, then pinch ends together and tuck
+              under. Let sit in a warm place until 1½ times larger, about 1
+              hour.
+            </p>
+            <p class="line">
+              Preheat oven to 325°. Beat egg yolks and 2 Tbsp. water in a small
+              bowl. Working with one at a time, brush dough with egg wash and
+              sprinkle with sesame seeds. Bake first loaf 15 minutes, then
+              increase oven temperature to 425° and continue baking until
+              browned and sounds hollow when tapped, 15–20 minutes more. Let
+              cool on baking sheet.
+            </p>
+            <p class="line">
+              Reduce oven temperature to 325°, then leave oven door open 5
+              seconds to cool down. Repeat baking with remaining dough.
+            </p>
+            <p class="line">
+              Do Ahead: Challah can be made 3 days ahead; keep tightly wrapped
+              at room temperature, or freeze up to 1 month. Let cool before
+              storing.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Notes -->
-    
+        <!-- Notes -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
-    
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-
-    
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-
-
-    </body>
+  </body>
 </html>
