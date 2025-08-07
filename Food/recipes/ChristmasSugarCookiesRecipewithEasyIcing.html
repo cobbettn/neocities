@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://sallysbakingaddiction.com/wp-content/uploads/2014/12/decorated-christmas-sugar-cookies-with-icing-2-150x225.jpg"
+          >
+            <img
+              src="Images/C50F483F-FFA2-4442-A633-D6EB539C3E93.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          Christmas Sugar Cookies Recipe with Easy Icing
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">2 hr</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">2 hours</span>
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield"
+            >Yield: 24 3-inch cookies and 1.5 cups icing</span
+          >
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://sallysbakingaddiction.com/christmas-sugar-cookies/"
+          >
+            <span itemprop="author">sallysbakingaddiction.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">Cookies</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> and 1/4 cups (281g) all-purpose flour (spooned
+              and leveled), plus more as needed for rolling and work surface
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> teaspoon baking powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/4</strong> teaspoon salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3/4</strong> cup (12 Tbsp; 170g) unsalted butter, softened
+              to room temperature
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3/4</strong> cup (150g) granulated sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> large egg, at room temperature
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> teaspoons pure vanilla extract
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/4 or 1/2</strong> teaspoon almond extract (optional, but
+              makes the flavor outstanding)*
+            </p>
+            <p class="line" itemprop="recipeIngredient">Easy Icing</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> cups (360g) confectioners’ sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> teaspoon pure vanilla extract (omit and
+              replace with water for stark white icing)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> teaspoons light corn syrup*
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4.5–5</strong> Tablespoons (67–75ml) room temperature
+              water
+            </p>
+            <p class="line" itemprop="recipeIngredient">pinch salt*</p>
+            <p class="line" itemprop="recipeIngredient">
+              optional: gel food coloring &amp; sprinkles for decorating
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Make sure you have allotted enough time (and enough counter
+              space!) to make these cookies. The cookie dough needs to chill,
+              the cookies need to cool completely, and the icing needs 24 hours
+              to completely set. If enjoying right away and hardened icing isn’t
+              a concern, you’ll only need about 3–4 hours to make these.
+            </p>
+            <p class="line">
+              Make the cookie dough: Whisk the flour, baking powder, and salt
+              together in a medium bowl. Set aside.
+            </p>
+            <p class="line">
+              In a large bowl using a handheld or a stand mixer fitted with a
+              paddle attachment, beat the butter and sugar together on high
+              speed until completely smooth and creamy, about 2 minutes. Add the
+              egg, vanilla, and almond extract (if using), and beat on high
+              speed until combined, about 1 minute. Scrape down the sides and up
+              the bottom of the bowl and beat again as needed to combine.
+            </p>
+            <p class="line">
+              Add the dry ingredients to the wet ingredients and mix on low
+              until combined. Dough will be a bit soft. If the dough seems too
+              soft and sticky for rolling, add 1 more Tablespoon of flour.
+            </p>
+            <p class="line">
+              Divide the dough into 2 equal parts. Place each portion onto a
+              piece of lightly floured parchment paper or a lightly floured
+              silicone baking mat. With a lightly floured rolling pin, roll the
+              dough out to about 1/4-inch thickness. Use more flour if the dough
+              seems too sticky. The rolled-out dough can be any shape, as long
+              as it is evenly 1/4-inch thick.
+            </p>
+            <p class="line">
+              Lightly dust one of the rolled-out doughs with flour. Place a
+              piece of parchment on top. (This prevents sticking.) Place the
+              second rolled-out dough on top. Cover with plastic wrap or
+              aluminum foil, then refrigerate for at least 1–2 hours and up to 2
+              days.
+            </p>
+            <p class="line">
+              Once chilled, preheat oven to 350°F (177°C). Line 2–3 large baking
+              sheets with parchment paper or silicone baking mats. Carefully
+              remove the top dough piece from the refrigerator. If it’s sticking
+              to the bottom, run your hand under it to help remove it. Using a
+              cookie cutter, cut the dough into shapes. Re-roll the remaining
+              dough and continue cutting until all is used. Repeat with second
+              piece of dough. (Note: It doesn’t seem like a lot of dough, but
+              you get a lot of cookies from the dough scraps you re-roll.)
+            </p>
+            <p class="line">
+              Arrange cookies on baking sheets about 3 inches apart. Bake for
+              11–12 minutes or until lightly browned around the edges. If your
+              oven has hot spots, rotate the baking sheet halfway through bake
+              time. Allow cookies to cool on the baking sheet for 5 minutes,
+              then transfer to a wire rack to cool completely before decorating.
+              No need to cover the cookies as they cool.
+            </p>
+            <p class="line">
+              Make the icing: Using a fork, stir the confectioners’ sugar,
+              vanilla, corn syrup, and 4.5 Tablespoons (67ml) of water together
+              in a medium bowl. It will be very thick and almost impossible to
+              stir. Switch to a whisk and whisk in 1/2 Tablespoon (8ml) more of
+              water. If you lift the whisk and let the icing drizzle back into
+              the bowl, the ribbon of icing will hold shape for a few seconds
+              before melting back into the icing. That is when you know it’s the
+              right consistency and is ready to use. If it’s too thick
+              (sometimes it is), whisk in another 1/2 Tablespoon (8ml) of water
+              or a little more until you reach the proper consistency.
+            </p>
+            <p class="line">
+              If you’re tinting the icing another color, stir in the food
+              coloring. You can pour some icing into different bowls if using
+              multiple colors. When tinting icing, use only 1–2 drops at first,
+              stir it in, then add more as needed to reach your desired color.
+              Remember, color darkens as icing dries.
+            </p>
+            <p class="line">
+              Decorate the cookies: You can dip the cookies into the icing or
+              use squeeze bottles or piping bags (reusable or disposable) fitted
+              with piping tips (I usually use Wilton Piping Tip #4). Decorate
+              your cookies as desired. If using the squeeze bottles or piping
+              tips, I usually outline cookies with icing first, then fill in the
+              middle. If adding sprinkles on top of the icing, add them right
+              after applying icing on your cookie.
+            </p>
+            <p class="line">
+              Let icing dry/set: Feel free to enjoy cookies before icing
+              completely dries. Icing dries in 24 hours. No need to cover the
+              decorated cookies as you wait for the icing to set. If it’s
+              helpful, decorate the cookies directly on a baking sheet so you
+              can place the entire baking sheet in the refrigerator to help
+              slightly speed up the icing setting. Once the icing has dried,
+              these cookies are great for gifting or for sending.
+            </p>
+            <p class="line">
+              Cover and store decorated cookies for up to 5 days at room
+              temperature or up to 10 days in the refrigerator.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              Freezing Instructions: Plain or decorated sugar cookies freeze
+              well up to 3 months. Wait for the icing to set completely before
+              layering between sheets of parchment paper in a freezer-friendly
+              container. To thaw, thaw in the refrigerator or at room
+              temperature. You can also freeze the cookie dough for up to 3
+              months before rolling it out. Prepare the dough through step 4,
+              divide in half, flatten both halves into a disc as we do with pie
+              crust, wrap each in plastic wrap, then freeze. To thaw, thaw the
+              discs in the refrigerator, then bring to room temperature for
+              about 1 hour. Roll out the dough as directed in step 5, then chill
+              rolled-out dough in the refrigerator for 45 minutes–1 hour before
+              cutting into shapes and baking.
+            </p>
+            <p>
+              Special Tools (affiliate links): Electric Mixer (Handheld or
+              Stand) | Baking Sheets | Silicone Baking Mats or Parchment Sheets
+              | Rolling Pin or Adjustable Rolling Pin | Holiday Cookie Cutter
+              Set | Cooling Rack | Squeeze Bottle | Piping Bag (Disposable or
+              Reusable) | Americolor Soft Gel Paste Color Kit | Couplers |
+              Wilton Tip #4
+            </p>
+            <p>
+              Room Temperature Butter: Room temperature butter is essential. If
+              the dough is too sticky, your butter may have been too soft. Room
+              temperature butter is actually cool to the touch. Room temperature
+              egg is preferred so it’s quickly and evenly mixed into the cookie
+              dough.
+            </p>
+            <p>
+              Flavors: I love flavoring this cookie dough with 1/2 teaspoon
+              almond extract as listed in the ingredients above. For lighter
+              flavor, use 1/4 teaspoon. Instead of the almond extract, try using
+              1 teaspoon of maple extract, coconut extract, lemon extract, or
+              peppermint extract. Or add 1 teaspoon pumpkin pie spice or ground
+              cinnamon. If using lemon extract, you can also add 1 Tablespoon
+              lemon zest.
+            </p>
+            <p>
+              Corn Syrup: Corn syrup gives the icing sticking power and creates
+              a beautiful sheen on the dried icing. I don’t recommend skipping
+              it, but you can if absolutely needed.
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

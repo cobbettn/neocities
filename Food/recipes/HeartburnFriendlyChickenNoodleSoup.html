@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://www.verywellfit.com/thmb/XWVqQUEt6sN7RfUVvT-yJzPzsWQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-noodle-soup-g18-56a8c0ce5f9b58b7d0f4d15f.jpg"
+          >
+            <img
+              src="Images/A5302B64-5211-44B9-977F-E3C98B148FDB-1395-0000006F3D02E056.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          Heartburn-Friendly Chicken Noodle Soup
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Cook Time: </b><span itemprop="cookTime">35 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">Servings: 4</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.verywellfit.com/chicken-noodle-soup-with-vegetables-1742984"
+          >
+            <span itemprop="author">verywellfit.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> tablespoon ​olive oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup trimmed and chopped celery
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> quarts water
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups peeled and chopped carrots
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4</strong> low-sodium chicken bouillon cubes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> teaspoon thyme
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> teaspoon salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> ounces uncooked egg noodles
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups diced, cooked boneless skinless chicken
+              breasts
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups frozen peas
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Add 1/2 tablespoon olive oil to a large pot. Add 2 cup trimmed and
+              chopped celery and sauté over a medium-high heat until
+              translucent.
+            </p>
+            <p class="line">
+              Add 2 quarts water, 2 cups peeled and chopped carrots, 4 low-fat
+              chicken bouillon cubes, 1/2 teaspoon thyme, and 1/2 teaspoon salt.
+              Bring to a boil.
+            </p>
+            <p class="line">
+              Add 2 cups (3 ounces) large egg noodles to the boiling water.
+              Stir. Return to a boil, reduce heat and cook for 8 minutes or
+              until noodles are tender.
+            </p>
+            <p class="line">
+              Add 2 cups diced, cooked boneless skinless chicken breast meat and
+              2 cups frozen peas. Return to a boil, reduce heat, cover and
+              simmer over medium-low heat for 5 to 10 minutes.
+            </p>
+            <p class="line">Have a Supply of Cooked Chicken Breasts on Hand</p>
+            <p class="line">
+              It&apos;s not a bad idea to cook up a batch of boneless, skinless
+              chicken breasts (using your favorite cooking method—grilling,
+              poaching, baking, sautéing, pan-frying, steaming, etc.) and then
+              freeze them to have on hand for recipes calling for cooked
+              chicken, such as this one.
+            </p>
+            <p class="line">
+              Since frozen chicken breasts thaw very quickly, you can have a
+              yummy meal on the table in no time.
+            </p>
+            <p class="line">
+              It&apos;s a better idea to freeze whole cooked chicken breasts
+              rather than diced chicken meat. The latter will dry out more
+              quickly. Some recipes will call for cups of diced chicken, as this
+              one does, but others will refer to whole breasts that are then
+              diced. So, if you like, you can dice some chicken breasts and
+              leave some whole. Freeze in a zip-top bag or other containers for
+              3 to 4 months.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Servings: 4 (2 1/4 cups each)<br />Amount per serving<br />Calories
+              315<br />% Daily Value*<br />Total Fat 7g 9%<br />Saturated Fat 1g
+              5%<br />Cholesterol 84mg 28%<br />Sodium 737mg 32%<br />Total
+              Carbohydrate 33g 12%<br />Dietary Fiber 7g 25%<br />Total Sugars
+              8g<br />Includes 0g Added Sugars 0%<br />Protein 29g<br />Vitamin
+              D 0mcg 0%<br />Calcium 69mg 5%<br />Iron 3mg 17%<br />Potassium
+              732mg 16%<br />*The % Daily Value (DV) tells you how much a
+              nutrient in a food serving contributes to a daily diet. 2,000
+              calorie a day is used for general nutrition advice.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

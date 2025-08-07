@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">BA&apos;s Best Pecan Pie</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">20 minutes</span>
+
+          <b>Cook Time: </b
+          ><span itemprop="cookTime">2 hours plus cooling</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">One 9&quot; pie</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.bonappetit.com/recipe/bas-best-pecan-pie/amp"
+          >
+            <span itemprop="author">bonappetit.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½</strong> teaspoons kosher salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups all-purpose flour, plus more for surface
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>5</strong> tablespoons chilled unsalted butter, cut into
+              pieces
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> tablespoons chilled lard or vegetable
+              shortening
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon apple cider vinegar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups pecan halves
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4</strong> large eggs, room temperature, beaten to blend
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup light corn syrup
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅔</strong> cup (packed) light brown sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon robust-flavored (dark) molasses (not
+              blackstrap)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon vanilla extract
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> teaspoon kosher salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>6</strong> tablespoons unsalted butter, melted, slightly
+              cooled
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Vanilla ice cream (for serving)
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Crust Pulse sugar, salt, and 2 cups flour in a food processor
+              until combined. Add butter and lard and pulse until mixture
+              resembles coarse meal with a few pieces of butter and lard
+              visible, about fifteen 1-second pulses. With motor running,
+              drizzle in vinegar and 5½ Tbsp. ice water and pulse until dough is
+              still crumbly but just holds together when squeezed (add 1 tsp.
+              water at a time if necessary, but be careful not to overwork
+              dough). Turn out dough onto a work surface. Knead 1–2 times,
+              pressing just to incorporate any shaggy pieces. Flatten into a
+              6&quot;-wide disk. Wrap with plastic wrap and chill at least 1
+              hour. Preheat oven to 425°. Roll out dough on a lightly floured
+              work surface to a 14&quot; round. Transfer to a 9&quot; pie dish.
+              Pick up edges and allow dough to slump down into dish, letting
+              excess dough hang over dish. Trim, leaving about a 1&quot;
+              overhang. Fold overhang under; pinch and crimp. Chill 30 minutes.
+              Line dough with parchment paper or foil, leaving some overhang.
+              Fill with pie weights or dried beans. Bake until crust is dry
+              around the edges and just beginning to lightly brown, 25–35
+              minutes. Carefully remove parchment and weights and reduce oven
+              temperature to 350°. Bake until crust is set and beginning to
+              brown in the center, 10–15 minutes. Transfer to a wire rack and
+              let cool.Do Ahead: Dough can be made 3 days ahead; keep chilled,
+              or freeze up to 2 months. Crust can be baked 1 day ahead; tightly
+              wrap and store at room temperature. Filling and Assembly Preheat
+              oven to 350°. Toast pecans on a rimmed baking sheet until browned
+              and fragrant, 8–10 minutes. Let cool. Reduce oven temperature to
+              325°. Whisk eggs, corn syrup, brown sugar, molasses, vanilla, and
+              salt in a large bowl until smooth. Slowly whisk in melted butter
+              until combined. Fold in pecans and pour into cooled crust. Bake
+              pie until edges are set and slightly puffed but center is recessed
+              and wobbles like Jell-O, 55–70 minutes (it will continue to set
+              after baking). Transfer to a wire rack and let cool at least 3
+              hours before slicing. Serve with ice cream.Do Ahead: Pie can be
+              baked 1 day ahead; tightly wrap and chill. Serve warm or at room
+              temperature. Editor&apos;s note: This recipe was originally
+              published in November 2016. For more of our best pie recipes, head
+              this way →
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

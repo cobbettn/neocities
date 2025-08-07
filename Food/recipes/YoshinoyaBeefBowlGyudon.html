@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://www.justonecookbook.com/wp-content/uploads/2016/08/Yoshinoya-Beef-Bowl-II-366x550.jpg"
+          >
+            <img
+              src="Images/B4660C58-41DC-43C5-9420-1062BAF15E66-31317-000007D0A7C0127D.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Yoshinoya Beef Bowl (Gyudon) 牛丼</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+
+        <p itemprop="recipeCategory" class="categories">
+          Dinner, Japanese, Lunch, Main
+        </p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">5 mins</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">15 mins</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">Servings: 2</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.justonecookbook.com/yoshinoya-beef-bowl-gyudon/"
+          >
+            <span itemprop="author">justonecookbook.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> onion
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> green onion/scallion
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> cup dashi (1/2 cup = 120 ml)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tbsp sake
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> Tbsp mirin
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tbsp sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> Tbsp soy sauce
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> lb thinly sliced beef (chuck or rib eye) (3/4
+              lb = 12 oz = 340 g) (See Note)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> Tbsp pickled red ginger (beni shoga or kizami
+              beni shoga)
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Gather all the ingredients.</p>
+            <p class="line">
+              If you cannot find sliced beef in your local grocery store, freeze
+              a block of fresh chuck or rib eye for 1-2 hours and slice. See
+              this post for detailed instructions. After you slice, if the piece
+              are too large then cut them in half. I use &quot;Komagire
+              cut&quot; from my local market and I cut them further into smaller
+              pieces.
+            </p>
+            <p class="line">
+              Cut the onion into thinly slices and chop the green onion. Set
+              aside.
+            </p>
+            <p class="line">
+              Heat a large frying pan over medium high heat and add 1/2 cup (120
+              ml) dashi, 1 Tbsp. sake, 1 Tbsp. sugar, 2 Tbsp. mirin, and 2 Tbsp.
+              soy sauce.
+            </p>
+            <p class="line">
+              Cover the lid and bring the sauce to boil. Once the sauce is
+              boiling, add the sliced onions and spread them out. Cover to cook
+              until tender (if you don’t cover, the sauce will evaporate, so
+              make sure you cover the lid).
+            </p>
+            <p class="line">
+              When the onion is tender, add the beef and cook until no longer
+              pink. Skim the foam or fat with a fine mesh sieve.
+            </p>
+            <p class="line">Serve the meat and sauce over steamed rice.</p>
+            <p class="line">
+              Top with chopped green onion and pickled red ginger. If you like
+              to add an egg, serve with Onsen Tamago. Alternatively, you can
+              pour beaten egg over the meat when it’s almost finished cooking in
+              the pan (see my other Gyudon recipe).
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

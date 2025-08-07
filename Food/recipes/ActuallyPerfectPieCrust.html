@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://assets.bonappetit.com/photos/63321f21d77a2db51261891b/1:1/w_2560%2Cc_limit/0926-basically-picrust-recipe-lede-v2.jpg"
+          >
+            <img
+              src="Images/3F0BCB55-5F4D-45C9-A9A5-980DCC05DADB.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Actually Perfect Pie Crust</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield"
+            >Enough for one 9&quot; single crust pie</span
+          >
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.bonappetit.com/recipe/perfect-pie-crust"
+          >
+            <span itemprop="author">bonappetit.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1⅔</strong> cups (208 g) all-purpose flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tsp. Diamond Crystal or ½ tsp. Morton kosher
+              salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> tsp. baking powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> oz. (56 g) chilled cream cheese, cut into
+              1&quot; pieces
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>10</strong> Tbsp. (140 g) chilled unsalted butter, sliced
+              ½&quot; thick
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Rice flour or all-purpose flour (for surface)
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Whisk 1⅔ cups (208 g) all-purpose flour, 1 tsp. Diamond Crystal or
+              ½ tsp. Morton kosher salt, and ¼ tsp. baking powder in a large
+              bowl. Add 2 oz. (56 g) chilled cream cheese, cut into 1&quot;
+              pieces, and rub into dry ingredients with your fingers until fully
+              incorporated (mixture will look very shaggy). Add 10 Tbsp. (140 g)
+              chilled unsalted butter, sliced ½&quot; thick, and toss to coat in
+              flour, then smash into smaller, flatter pieces (about
+              chickpea-size).
+            </p>
+            <p class="line">
+              Make a well in the center and pour in ¼ cup (60 g) ice water. Toss
+              mixture with a fork or your hands to distribute, then knead in
+              bowl a couple times to bring dough together (some dry bits may
+              remain).
+            </p>
+            <p class="line">
+              Turn out dough onto a surface lightly dusted with rice flour or
+              all-purpose flour; dust top of dough with flour. Roll out to a
+              ½&quot;-thick rectangle. Fold dough in half, rotate 90°, and fold
+              in half again. Roll out again to a ½&quot;-thick rectangle and
+              repeat folding process, dusting with more flour as needed to
+              prevent sticking. Pat into a ½&quot;-thick disk and wrap tightly
+              in plastic. Chill in refrigerator at least 2 hours and,
+              preferably, up to 12 hours.
+            </p>
+            <p class="line">
+              Remove dough from refrigerator and let sit at room temperature 5
+              minutes. Unwrap and roll out on a lightly floured surface to about
+              a 12&quot; round about ⅛&quot; thick. Brush excess flour off dough
+              and transfer to a 9&quot;-diameter pie pan. Lift edges and allow
+              dough to slump down into pan, then press dough firmly into bottom
+              and sides. Trim, leaving about 1&quot; overhang. Fold overhang
+              onto itself, pressing firmly to seal; crimp edges if desired.
+              Chill 15 minutes.
+            </p>
+            <p class="line">
+              To blind bake: Place a rack in lower third of oven; preheat to
+              375°. Place crust on a parchment-lined rimmed baking sheet. Line
+              crust with 2 sheets of parchment paper (crumple parchment, then
+              unfold so it molds to pan better) and fill to edges with pie
+              weights or dried beans. Bake until edges are golden brown and
+              bottom is opaque (carefully lift parchment to check), 30–35
+              minutes. Remove from oven; reduce oven temperature to 325°. Lift
+              out parchment and weights. Return to oven and bake crust until
+              bottom and sides are evenly golden brown all over, 12–18
+              minutes.Do Ahead: Dough can be made 1 month ahead. Double wrap
+              disk in plastic and freeze instead of chilling. Thaw overnight in
+              refrigerator before using.Editor’s note: This recipe has been
+              updated to include additional ingredient weights.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

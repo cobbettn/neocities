@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://static01.nyt.com/images/2014/04/04/dining/baba-ganoush/baba-ganoush-square640.jpg"
+          >
+            <img
+              src="Images/AC95F9A0-0DEA-49F9-91BF-5FD581C2A6F9.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Baba Ghanouj</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b><span itemprop="totalTime">1 hr 15 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">About 2 cups</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://cooking.nytimes.com/recipes/1014030-baba-ghanouj?ds_c=71700000052595478&amp;site=google&amp;network=g&amp;campaign_id=1400169272&amp;gad_source=1&amp;gbraid=0AAAAADwd30ihhNgFqHYxV_ThN28CQcC2O&amp;gclid=CjwKCAiAzJOtBhALEiwAtwj8tpL82z3Vex-xGYphowImqIoc5fwHhZw6qSbz6U5Qif53BR2qGjWceRoCyD0QAvD_BwE&amp;gclsrc=aw.ds"
+          >
+            <span itemprop="author">cooking.nytimes.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> pounds eggplant, preferably small eggplants
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/4</strong> cup freshly squeezed lemon juice (more to
+              taste)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/4</strong> cup sesame tahini, stirred if oil has
+              separated out
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1 to 2</strong> tablespoons plain low-fat yogurt, as
+              needed
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> garlic cloves, cut in half, green shoots
+              removed
+            </p>
+            <p class="line" itemprop="recipeIngredient">Salt to taste</p>
+            <p class="line" itemprop="recipeIngredient">
+              Extra-virgin olive oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Chopped flat-leaf parsley
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Prepare a hot gas or charcoal grill. Pierce the eggplants in
+              several places with a fork or the tip of a knife, and place over
+              the hot coals. Grill, turning regularly, until soft and blackened
+              all over. If you don’t have a grill but do have a gas stove,
+              preheat the oven to 425 degrees. Cover the top of your stove under
+              the burner grates with foil to facilitate cleaning. Turn on your
+              oven fan (so the smoke alarm won’t go off), and roast the
+              eggplants directly over the flame, turning often until charred and
+              softened. Small, thin eggplants will cook through this way, but
+              larger eggplants must be finished in the oven. Wrap in foil, and
+              place in the hot oven for 20 minutes until thoroughly softened.
+              You can also roast the eggplant under a broiler until charred and
+              softened. The flavor of the baba ganoush will not be as smoky.
+            </p>
+            <p class="line">
+              Place the grilled eggplant in a colander in the sink, and allow to
+              cool and drain. Peel and discard the black skins, cut off the
+              stems, and let the eggplants sit in the colander to drain for
+              another 15 to 30 minutes.
+            </p>
+            <p class="line">
+              Puree the eggplant in a food processor fitted with the steel
+              blade. Add the lemon juice, yogurt and tahini. In a mortar and
+              pestle, pound the garlic to a paste with a generous pinch of salt.
+              Add to the food processor, and blend with the eggplant. Add salt
+              to taste.
+            </p>
+            <p class="line">
+              Mound the puree in a bowl or on a platter, and drizzle with olive
+              oil. Sprinkle with parsley. Serve with pita bread.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              Advance preparation: This dish can be made several hours ahead.
+              The flavors are best on the day it’s made, as the garlic, lemon
+              juice and eggplant become more pungent over time. Martha Rose
+              Shulman can be reached at martha-rose-shulman.com.
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Trans Fat: 0 grams<br />Fat: 12 grams<br />Calories: 187<br />Saturated
+              Fat: 2 grams<br />Unsaturated Fat: 10 grams<br />Sodium: 623
+              milligrams<br />Sugar: 9 grams<br />Fiber: 8 grams<br />Carbohydrate:
+              18 grams<br />Protein: 5 grams
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>
