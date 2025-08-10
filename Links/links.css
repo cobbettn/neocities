@@ -1,0 +1,30 @@
+main {
+  background: #a3b18a; /* moss green */
+  color: #2b3a2a; /* dark bark brown-green */
+}
+
+body {
+  background: olive url("images/tree-bark.png"); /* pale leafy green background */
+}
+
+header {
+  background: #4b3f2f; /* tree bark brown */
+  color: #d9ed92; /* soft leaf green */
+  border-bottom: 2px solid #52b788; /* lively green accent */
+  box-shadow: inset -2px -2px #52b788, inset 2px 2px #2d3a2f;
+}
+
+nav a {
+  color: #d9ed92; /* pale green text */
+  background-color: #6a994e; /* leaf green buttons */
+}
+
+nav a:hover {
+  background-color: #d9ed92; /* light green hover */
+  color: #2b3a2a;
+}
+
+h1, h2, h3 {
+  background-color: #52b788; /* fresh green headers */
+  color: #2b3a2a; /* bark brown text */
+}

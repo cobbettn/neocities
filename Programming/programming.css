@@ -1,0 +1,26 @@
+body {
+  background: #0d1117 url('images/cubes.png');
+  /*color: #c9d1d9;*/
+}
+
+header {
+  background: #161b22;
+  color: #58a6ff;
+  border-bottom: 2px solid #58a6ff;
+  box-shadow: inset -2px -2px #58a6ff, inset 2px 2px #0d1117;
+}
+
+nav a {
+  color: #58a6ff;
+  background-color: #21262d;
+}
+
+nav a:hover {
+  background-color: #58a6ff;
+  color: black;
+}
+
+h1, h2, h3 {
+  background-color: #58a6ff;
+  color: black;
+}

@@ -1,0 +1,26 @@
+body {
+  background: darkgray url('images/cartographer.png');
+  /*color: white;*/
+}
+
+header {
+  background: black;
+  color: #ccc;
+  border-bottom: 2px solid #ccc;
+  box-shadow: inset -2px -2px #ccc, inset 2px 2px #111;
+}
+
+nav a {
+  color: #ccc;
+  background-color: #555;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+h1, h2, h3 {
+  background-color: #ccc;
+  color: black;
+}

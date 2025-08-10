@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Fraunces';
+  src: url('fonts/Fraunces.woff2') format('woff2'); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+main, h1, h2, h3 {
+  font-family: 'Fraunces';
+}
+
+
+body {
+  background: skyblue url('images/binding-dark.png');
+}
+

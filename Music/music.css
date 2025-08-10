@@ -1,0 +1,37 @@
+
+
+main {
+  background: lightpink; /* soft pink */
+  color: #444; /* gentle text */
+}
+
+body {
+  background: salmon url("images/foggy-birds.png"); /* light cream + fun pattern */
+}
+
+header {
+  background: #a5d8ff; /* sky blue */
+  color: #ff66b3; /* bubblegum pink */
+  border-bottom: 2px solid #ffcc66; /* sunny yellow */
+  box-shadow: inset -2px -2px #ffcc66, inset 2px 2px #88c0ff;
+}
+
+nav a {
+  color: #ff66b3; /* pink links */
+  background-color: #e6f7ff; /* pale blue buttons */
+}
+
+nav a:hover {
+  background-color: #ffcc66; /* yellow hover */
+  color: #333;
+}
+
+h1, h2, h3 {
+  background-color: #ffcc66; /* yellow headers */
+  color: #333;
+}
+
+
+
+
+

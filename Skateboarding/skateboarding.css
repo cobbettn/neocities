@@ -1,0 +1,26 @@
+body {
+  background: salmon url('images/brick-wall-dark.png');
+  color: #eee;
+}
+
+header {
+  background: #ff4500;
+  color: white;
+  border-bottom: 2px solid white;
+  box-shadow: inset -2px -2px white, inset 2px 2px #cc3700;
+}
+
+nav a {
+  color: white;
+  background-color: #ff4500;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+h1, h2, h3 {
+  background-color: yellow;
+  color: black;
+}

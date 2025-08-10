@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'PKMN';
+  src: url('fonts/PKMN.woff2') format('woff2'), /* Modern Browsers */
+       url('fonts/PKMN.woff') format('woff'),   /* Most Browsers */
+       url('fonts/PKMN.ttf') format('truetype'); /* Older Safari, Android */
+  font-weight: normal;
+  font-style: normal;
+}
+
+main, h1, h2, h3 {
+  font-family: 'PKMN';
+}
+
+
+body {
+  background: #003366 url('https://www.transparenttextures.com/patterns/diagmonds-light.png');
+  /*color: white;*/
+}
+
+header {
+  background: #111;
+  color: #0ff;
+  border-bottom: 2px solid #0ff;
+  box-shadow: inset -2px -2px #0ff, inset 2px 2px #003333;
+}
+
+nav a {
+  color: #0ff;
+  background-color: #222;
+}
+
+nav a:hover {
+  background-color: #0ff;
+  color: black;
+}
+
+h1, h2, h3 {
+  background-color: #0ff;
+  color: black;
+}

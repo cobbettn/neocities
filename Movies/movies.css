@@ -1,5 +1,27 @@
-.flex-col {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+body {
+  background: #2b0000 url('https://www.transparenttextures.com/patterns/black-linen.png');
+  color: #ffd;
 }
+
+header {
+  background: #660000;
+  color: gold;
+  border-bottom: 2px solid gold;
+  box-shadow: inset -2px -2px gold, inset 2px 2px #330000;
+}
+
+nav a {
+  color: gold;
+  background-color: #440000;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: black;
+}
+
+h1, h2, h3 {
+  background-color: gold;
+  color: #440000;
+}
+

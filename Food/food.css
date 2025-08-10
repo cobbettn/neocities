@@ -1,0 +1,31 @@
+body {
+  background: #fff8e7 url('images/beige-paper.png');/* light cheese cream */
+  color: #3a2f2f; /* warm brown for text */
+}
+
+main {
+  background: #d62828; /* tomato red */
+  color: beige;
+}
+
+header {
+  background: #3a5a40; /* basil green */
+  color: #fceabb; /* mozzarella cream */
+  border-bottom: 2px solid #f77f00; /* crust orange */
+  box-shadow: inset -2px -2px #f77f00, inset 2px 2px #2d3a2f;
+}
+
+nav a {
+  color: #fceabb; /* mozzarella cream */
+  background-color: #6a994e; /* softer basil green */
+}
+
+nav a:hover {
+  background-color: #fceabb; /* mozzarella */
+  color: #3a2f2f; /* crust brown */
+}
+
+h1, h2, h3 {
+  background-color: #f77f00; /* golden crust */
+  color: #3a2f2f; /* dough brown */
+}
