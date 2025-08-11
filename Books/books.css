@@ -14,3 +14,11 @@ body {
   background: skyblue url('images/binding-dark.png');
 }
 
+header {
+  background: url('images/paper.png');
+}
+
+nav, nav a {
+ background: url('images/paper.png');
+}
+

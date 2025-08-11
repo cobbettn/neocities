@@ -1,6 +1,10 @@
 body {
   background: salmon url('images/brick-wall-dark.png');
-  color: #eee;
+  /*color: #eee;*/
+}
+
+main {
+  text-align: center;
 }
 
 header {

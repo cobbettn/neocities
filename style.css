@@ -2,7 +2,7 @@ body {
   font-family: 'Tahoma', 'Geneva', sans-serif;
   margin: 0;
   padding: 0;
-  background: teal url('images/squares.png');
+  background: teal;
   color: black;
 }
 
@@ -111,7 +111,7 @@ h3 {
   width: auto;
 }
 
-#neocities {
-  padding-top: 1rem;
+#net {
+  padding-bottom: 1rem;
 }
 

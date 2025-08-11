@@ -1,6 +1,6 @@
 main {
-  background: #a3b18a; /* moss green */
-  color: #2b3a2a; /* dark bark brown-green */
+  background: #52b788; /* fresh green */
+  color: #2b3a2a; /* dark bark brown-green */ 
 }
 
 body {
@@ -25,6 +25,6 @@ nav a:hover {
 }
 
 h1, h2, h3 {
-  background-color: #52b788; /* fresh green headers */
+  background-color: #d9ed92;
   color: #2b3a2a; /* bark brown text */
 }

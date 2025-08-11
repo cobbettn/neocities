@@ -1,11 +1,10 @@
 body {
-  background: #fff8e7 url('images/beige-paper.png');/* light cheese cream */
+  background: url('images/pizzapixel.jpg');/* light cheese cream */
   color: #3a2f2f; /* warm brown for text */
 }
 
 main {
-  background: #d62828; /* tomato red */
-  color: beige;
+  background: url(images/beige-paper.png');
 }
 
 header {
